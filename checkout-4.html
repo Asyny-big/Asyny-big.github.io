@@ -16,7 +16,7 @@
     <link rel="icon" href="favicon.ico">
 
     <!--Title-->
-    <title>Contact - Divano - Furniture HTML Template</title>
+    <title>Receipt - Divano - Furniture HTML Template</title>
 
     <!--CSS bundle -->
     <link rel="stylesheet" media="all" href="css/bootstrap.css" />
@@ -565,229 +565,387 @@
             </div>
         </nav>
 
-        <!-- ========================  Contact ======================== -->
+        <!-- ========================  Checkout ======================== -->
 
-        <section class="contact">
+        <section class="checkout">
 
-            <!-- === Goolge map === -->
+            <!-- === header === -->
 
-            <div id="map"></div>
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-10 offset-md-1">
-
-                        <div class="contact-block">
-
-                            <div class="contact-info">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <figure class="text-center">
-                                            <span class="icon icon-map-marker"></span>
-                                            <figcaption>
-                                                <strong>Where are we?</strong>
-                                                <span>200 12th Ave, New York, <br />NY 10001, USA</span>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <figure class="text-center">
-                                            <span class="icon icon-phone"></span>
-                                            <figcaption>
-                                                <strong>Call us</strong>
-                                                <span>
-                                                    <strong>T</strong> +1 222 333 4444 <br />
-                                                    <strong>F</strong> +1 222 333 5555
-                                                </span>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <figure class="text-center">
-                                            <span class="icon icon-clock"></span>
-                                            <figcaption>
-                                                <strong>Working hours</strong>
-                                                <span>
-                                                    <strong>Mon</strong> - Sat: 10 am - 6 pm <br />
-                                                    <strong>Sun</strong> 12pm - 2 pm
-                                                </span>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="contact-info">
-                                <h2 class="title">Send an email</h2>
-                                <p>
-                                    Thanks for your interest in Mobel Theme. We believe in creativity as one of the major forces of progress.
-                                    Please use this form if you have any questions about our products and we'll get back with you very soon.
-                                </p>
-
-                                <div class="contact-form-wrapper">
-
-                                    <div class="contact-form clearfix">
-                                        <form action="#" method="post">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="text" value="" class="form-control" placeholder="Your name" required="required">
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="email" value="" class="form-control" placeholder="Your email" required="required">
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-12">
-
-                                                    <div class="form-group">
-                                                        <input type="text" value="" class="form-control" placeholder="Subject" required="required">
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <textarea class="form-control" placeholder="Your message" rows="10"></textarea>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-12 text-center">
-                                                    <input type="submit" class="btn btn-primary" value="Send message" />
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> <!--/contact-block-->
-                    </div><!--col-sm-8-->
-                </div> <!--/row-->
-            </div><!--/container-->
-        </section>
-
-        <!-- ========================  Newsletter ======================== -->
-
-        <section class="banner">
-
-            <div class="container-fluid">
-
-                <div class="banner-image" style="background-image:url(assets/images/gallery-1.jpg)">
-                    <!--Header-->
-
-                    <header>
-                        <div class="container">
-
-                            <h2 class="h2 title">Stay in touch!</h2>
-                            <div class="text">
-                                <p>Be first to know about all new interior features!</p>
-                            </div>
-
-                        </div>
-                    </header>
-
-                    <!--Content-->
-
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-md-4">
-                                <input type="email" class="form-control" name="name" value="" placeholder="Enter your e-mail">
-                            </div>
-                            <div class="col-md-4">
-                                <a href="#" class="btn btn-clean">Subscribe now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div> <!--/container-fluid-->
-
-        </section>
-
-        <!-- ========================  Benefits ======================== -->
-
-        <section class="benefits">
-
-            <!--Header-->
-
-            <header class="d-none">
+            <header>
                 <div class="container">
-                    <h2 class="h2 title">Benefits</h2>
+                    <h2 class="title">Delivery checkout</h2>
+                    <div class="text">
+                        <p>Confirm your order details</p>
+                    </div>
                 </div>
             </header>
 
-            <!--Header-->
+            <!-- === step wrapper === -->
+
+            <div class="step-wrapper">
+
+                <div class="container">
+
+                    <div class="stepper">
+                        <ul class="row">
+                            <li class="col-3 active">
+                                <span data-text="Cart items"></span>
+                            </li>
+                            <li class="col-3 active">
+                                <span data-text="Delivery"></span>
+                            </li>
+                            <li class="col-3 active">
+                                <span data-text="Payment"></span>
+                            </li>
+                            <li class="col-3 active">
+                                <span data-text="Receipt"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- === left content === -->
 
             <div class="container">
 
-                <div class="row">
 
-                    <!--Icon-->
+                <!-- ========================  Receipt ======================== -->
 
-                    <div class="col-6 col-lg-3" data-tilt>
-                        <figure>
-                            <div class="icon"><i class="icon icon-gift"></i></div>
-                            <figcaption>
-                                <span>
-                                    <strong>Get your gift</strong> <br />
-                                    <small>Are you a new customer?</small>
-                                </span>
-                            </figcaption>
-                        </figure>
+                <div class="cart-wrapper">
+
+                    <div class="note-block">
+
+                        <div class="row">
+                            <!-- === left content === -->
+
+                            <div class="col-md-6">
+
+
+                                <div class="h4">Shipping info</div>
+
+                                <hr />
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Name</strong> <br />
+                                            <span>John Doe</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Email</strong><br />
+                                            <span>johndoe@company.com</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Phone</strong><br />
+                                            <span>+122 523 352</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Zip</strong><br />
+                                            <span>94107</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>City</strong><br />
+                                            <span>San Francisco, California</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Address</strong><br />
+                                            <span>795 Folsom Ave, Suite 600</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Company name</strong><br />
+                                            <span>Divano Corporation</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Company phone</strong><br />
+                                            <span>+122 333 6665</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div><!--/col-md-6-->
+                            <!-- === right content === -->
+
+                            <div class="col-md-6">
+
+                                <div class="h4">Order details</div>
+
+                                <hr />
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Order no.</strong> <br />
+                                            <span>52522-63259226</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Transaction ID</strong> <br />
+                                            <span>2265996</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Order date</strong> <br />
+                                            <span>06/30/2017</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Shipping arrival</strong> <br />
+                                            <span>07/30/2017</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="h4">Payment details</div>
+
+                                <hr />
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Transaction time</strong> <br />
+                                            <span>06/30/2017 at 00:59</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Amount</strong><br />
+                                            <span>$ 1259,00</span>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Cart details</strong><br />
+                                            <span>**** **** **** 5446</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <strong>Items in cart</strong><br />
+                                            <span>4</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <hr />
+
+                <!-- ========================  Cart wrapper ======================== -->
+
+                <div class="cart-wrapper">
+
+                    <!-- cart header -->
+
+                    <div class="cart-block cart-block-header clearfix">
+                        <div><span>Product</span></div>
+                        <div><span>&nbsp;</span></div>
+                        <div><span>Quantity</span></div>
+                        <div class="text-right"><span>Price</span></div>
                     </div>
 
-                    <!--Icon-->
+                    <!-- cart items -->
 
-                    <div class="col-6 col-lg-3" data-tilt>
-                        <figure>
-                            <div class="icon"><i class="icon icon-rocket"></i></div>
-                            <figcaption>
-                                <span>
-                                    <strong>Fast delivery</strong> <br />
-                                    <small>We're shipping all over the world</small>
-                                </span>
-                            </figcaption>
-                        </figure>
+                    <div class="clearfix">
+
+                        <!-- cart item -->
+
+                        <div class="cart-block cart-block-item clearfix">
+                            <div class="image">
+                                <a href="product.html"><img src="assets/images/item-1.jpg" alt="" /></a>
+                            </div>
+                            <div class="title">
+                                <div class="h4"><a href="product.html">Coffee machine</a></div>
+                                <div>Electronics</div>
+                            </div>
+                            <div class="quantity">
+                                <strong>1</strong>
+                            </div>
+                            <div class="price">
+                                <span class="final h3">$ 150,00</span>
+                                <span class="discount">$ 190,00</span>
+                            </div>
+                            <!--delete-this-item-->
+                            <span class="icon icon-cross icon-delete"></span>
+                        </div>
+
+                        <!-- cart item -->
+
+                        <div class="cart-block cart-block-item clearfix">
+                            <div class="image">
+                                <a href="product.html"><img src="assets/images/item-2.jpg" alt="" /></a>
+                            </div>
+                            <div class="title">
+                                <div class="h4"><a href="product.html">Iron set</a></div>
+                                <div>Home accessories</div>
+                            </div>
+                            <div class="quantity">
+                                <strong>3</strong>
+                            </div>
+                            <div class="price">
+                                <span class="final h3">$ 390,00</span>
+                                <span class="discount">$ 490,00</span>
+                            </div>
+                            <!--delete-this-item-->
+                            <span class="icon icon-cross icon-delete"></span>
+                        </div>
+
+                        <!-- cart item -->
+
+                        <div class="cart-block cart-block-item clearfix">
+                            <div class="image">
+                                <a href="product.html"><img src="assets/images/item-3.jpg" alt="" /></a>
+                            </div>
+                            <div class="title">
+                                <div class="h4"><a href="product.html">Wireless Headphones</a></div>
+                                <div>Green corner</div>
+                            </div>
+                            <div class="quantity">
+                                <strong>1</strong>
+                            </div>
+                            <div class="price">
+                                <span class="final h3">$ 180,00</span>
+                                <span class="discount">$ 200,00</span>
+                            </div>
+                            <!--delete-this-item-->
+                            <span class="icon icon-cross icon-delete"></span>
+                        </div>
+
+                        <!-- cart item -->
+
+                        <div class="cart-block cart-block-item clearfix">
+                            <div class="image">
+                                <a href="product.html"><img src="assets/images/item-4.jpg" alt="" /></a>
+                            </div>
+                            <div class="title">
+                                <div class="h4"><a href="product.html">E-shaver 500</a></div>
+                                <div>Electronics</div>
+                            </div>
+                            <div class="quantity">
+                                <strong>2</strong>
+                            </div>
+                            <div class="price">
+                                <span class="final h3">$ 199,00</span>
+                                <span class="discount">$ 149,00</span>
+                            </div>
+                            <!--delete-this-item-->
+                            <span class="icon icon-cross icon-delete"></span>
+                        </div>
                     </div>
 
-                    <!--Icon-->
+                    <!--cart prices -->
 
-                    <div class="col-6 col-lg-3" data-tilt>
-                        <figure>
-                            <div class="icon"><i class="icon icon-history"></i></div>
-                            <figcaption>
-                                <span>
-                                    <strong>Money-back guarantee</strong> <br />
-                                    <small>30 day money back gurantee</small>
-                                </span>
-                            </figcaption>
-                        </figure>
+                    <div class="row">
+                        <div class="col-md-4 offset-md-8">
+
+                            <!-- discount -->
+
+                            <div class="cart-block cart-block-footer clearfix">
+                                <div>
+                                    <strong>Discount 15%</strong>
+                                </div>
+                                <div>
+                                    <span>$ 159,00</span>
+                                </div>
+                            </div>
+
+                            <!-- discount -->
+
+                            <div class="cart-block cart-block-footer clearfix">
+                                <div>
+                                    <strong>Shipping</strong>
+                                </div>
+                                <div>
+                                    <span>$ 30,00</span>
+                                </div>
+                            </div>
+
+                            <!-- discount -->
+
+                            <div class="cart-block cart-block-footer clearfix">
+                                <div>
+                                    <strong>VAT</strong>
+                                </div>
+                                <div>
+                                    <span>$ 59,00</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <!--Icon-->
+                    <!-- cart final price -->
 
-                    <div class="col-6 col-lg-3" data-tilt>
-                        <figure>
-                            <div class="icon"><i class="icon icon-diamond"></i></div>
-                            <figcaption>
-                                <span>
-                                    <strong>VIP discounts</strong> <br />
-                                    <small>Become VIP member</small>
+                    <div class="clearfix">
+                        <div class="cart-block cart-block-footer cart-block-footer-price clearfix">
+                            <div>
+                                <span class="checkbox">
+                                    <span class="alert alert-info">Promocode included!</span>
                                 </span>
-                            </figcaption>
-                        </figure>
+                            </div>
+                            <div>
+                                <div class="h2 title">$ 1259,00</div>
+                            </div>
+                        </div>
                     </div>
-                </div> <!--/row-->
+                </div>
+
+                <!-- ========================  Cart navigation ======================== -->
+
+                <div class="clearfix">
+                    <div class="row">
+                        <div class="col-6 offset-6 text-right">
+                            <a href="checkout-2.html" class="btn btn-clean-dark"><span class="icon icon-printer"></span> Print receipt</a>
+                        </div>
+                    </div>
+                </div>
 
             </div> <!--/container-->
 
         </section>
-
 
 
         <!-- ================== Footer  ================== -->
@@ -889,43 +1047,6 @@
     <script src="js/jquery.easypiechart.js"></script>
     <script src="js/bigtext.js"></script>
     <script src="js/main.js"></script>
-
-    <script>
-        function initMap() {
-            var contentString =
-                '<div class="map-info-window">' +
-                '<p><img src="assets/images/divano-logo.png" alt="" width="150"></p>' +
-                '<p><strong>Divano - Furniture Template</strong></p>' +
-                '<p><i class="fa fa-map-marker"></i> 200 12th Ave, New York, NY 10001, USA</p>' +
-                '<p><i class="fa fa-phone"></i> +12 33 444 555</p>' +
-                '<p><i class="fa fa-clock-o"></i> 10am - 6pm</p>' +
-                '</div>';
-
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
-            });
-            //set default pposition
-            var myLatLng = { lat: 40.7459772, lng: -74.0545504 };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 12,
-                center: myLatLng,
-                styles: [{ "featureType": "administrative", "elementType": "all", "stylers": [{ "visibility": "on" }, { "saturation": -100 }, { "lightness": 20 }] }, { "featureType": "road", "elementType": "all", "stylers": [{ "visibility": "on" }, { "saturation": -100 }, { "lightness": 40 }] }, { "featureType": "water", "elementType": "all", "stylers": [{ "visibility": "on" }, { "saturation": -10 }, { "lightness": 30 }] }, { "featureType": "landscape.man_made", "elementType": "all", "stylers": [{ "visibility": "simplified" }, { "saturation": -60 }, { "lightness": 10 }] }, { "featureType": "landscape.natural", "elementType": "all", "stylers": [{ "visibility": "simplified" }, { "saturation": -60 }, { "lightness": 60 }] }, { "featureType": "poi", "elementType": "all", "stylers": [{ "visibility": "off" }, { "saturation": -100 }, { "lightness": 60 }] }, { "featureType": "transit", "elementType": "all", "stylers": [{ "visibility": "off" }, { "saturation": -100 }, { "lightness": 60 }] }]
-            });
-            //set marker
-            var image = 'assets/images/map-icon.png';
-            var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                title: "Hello World!",
-                icon: image
-            });
-            marker.addListener('click', function () {
-                infowindow.open(map, marker);
-            });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAabaAL675kRhFvfrPEmjFUirXHk2cA9Dc&callback=initMap"></script>
-
 </body>
 
 </html>
